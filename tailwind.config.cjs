@@ -91,40 +91,40 @@ module.exports = {
 
       colors: {
         charcoal: {
-          50: "#ECEEEC",
-          100: "#D7DAD7",
-          200: "#B0B5B0",
-          300: "#889188",
-          400: "#626A62",
-          500: "#3E433E",
-          600: "#313531",
-          700: "#252825",
-          800: "#191A19",
-          900: "#0C0D0C",
+          50: "#E6E6E6", // Adjusted for lighter gray
+          100: "#CCCCCC", // Adjusted for medium-light gray
+          200: "#B3B3B3", // Light gray to complement #CCCCCC
+          300: "#999999", // Medium gray
+          400: "#666666", // Darker gray
+          500: "#333333", // Dark gray
+          600: "#1A1A1A", // Very dark gray
+          700: "#0D0D0D", // Nearly black
+          800: "#000000", // Black
+          900: "#000000", // Black for consistency
         },
         tomato: {
-          50: "#FFEEEB",
-          100: "#FFE1DC",
-          200: "#FEBFB3",
-          300: "#FEA090",
-          400: "#FD7E68",
-          500: "#FD6043",
-          600: "#FC2803",
-          700: "#C01E02",
-          800: "#7E1401",
-          900: "#420A01",
+          50: "#FFFFFF", // White
+          100: "#F5F5F5", // Very light gray
+          200: "#E0E0E0", // Light gray
+          300: "#CCCCCC", // Medium-light gray
+          400: "#B3B3B3", // Slightly darker gray
+          500: "#999999", // Gray
+          600: "#808080", // Darker gray
+          700: "#666666", // Even darker gray
+          800: "#4D4D4D", // Very dark gray
+          900: "#333333", // Almost black
         },
         negroni: {
-          50: "#FDFAF7",
-          100: "#FBF5EF",
-          200: "#F6E8DA",
-          300: "#F2DECA",
-          400: "#EDD1B5",
-          500: "#E9C7A5",
-          600: "#D99E63",
-          700: "#C1782F",
-          800: "#7F4F1F",
-          900: "#422910",
+          50: "#FAFAFA", // Very light gray
+          100: "#F5F5F5", // Light gray
+          200: "#F0F0F0", // Slightly darker light gray
+          300: "#E0E0E0", // Light gray
+          400: "#D0D0D0", // Slightly darker gray
+          500: "#BEBEBE", // Medium-light gray
+          600: "#A0A0A0", // Medium gray
+          700: "#8C8C8C", // Slightly darker gray
+          800: "#6B6B6B", // Darker gray
+          900: "#4A4A4A", // Dark gray
         },
       },
       fontFamily: {

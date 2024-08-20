@@ -1,6 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 /* CSS */
 :root {
     font-family: Inter, sans-serif;
@@ -12,15 +13,21 @@
     "ss08" 1, /* Square quotes */
     "zero" 1, /* Slashed zero */
     "tnum" 1, /* Tabular numbers */
-      "cv03", /* Open six */
-      "cv04" 1, /* Open nine */
-      "cv01" 1, /* Alternate one */
-      "cv09", /* Flat-top three */
-      "cv02" 1; /* Open 4 */
-  }
-  @supports (font-variation-settings: normal) {
+    "cv03", /* Open six */
+    "cv04" 1, /* Open nine */
+    "cv01" 1, /* Alternate one */
+    "cv09", /* Flat-top three */
+    "cv02" 1; /* Open 4 */
+}
+@supports (font-variation-settings: normal) {
     /* Use variable font if supported */
     :root {
-      font-family: InterVariable, sans-serif;
+        font-family: InterVariable, sans-serif;
     }
-  }
+}
+
+/* Add the Font Awesome WhatsApp icon styles */
+.fa-whatsapp {
+    font-size: 1.2rem; /* Adjust size as needed */
+    color: currentColor; /* This will inherit the color from the text */
+}
