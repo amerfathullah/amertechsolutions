@@ -5,104 +5,101 @@ import { Image } from 'astro:assets';
 <main>
   <div class="relative mx-auto px-8 max-w-7xl py-12 md:px-12">
     <div class="grid grid-cols-1 gap-6 lg:gap-y-32 md:grid-cols-2">
-      <figure>
-        <Image
-          class="w-full rounded-3xl shadow-2xl"
-          src="https://cdn.dribbble.com/users/1787323/screenshots/7072320/media/07a36a7626d7d1afc82fa4cfd6f55265.png"
-          alt="Paper bags with print"
-          width={1310}
-          height={873}
-          format="webp, jpeg"
-          loading="eager"
-        />
-        <div class="mt-4 flex justify-between px-6">
-          <div>
-            <h3 class="text-sm text-negroni-500">
-              <a href="https://wa.me/1234567890?text=Hi%2C%20can%20I%20get%20more%20info%20on%20PC%20%26%20Laptop%20Services%3F" target="_blank" rel="noopener noreferrer">
-                <span aria-hidden="true" class="absolute inset-0"></span>
+      <!-- PC & Laptop Services -->
+      <a href="https://wa.me/1234567890?text=Hi%2C%20can%20I%20get%20more%20info%20on%20PC%20%26%20Laptop%20Services%3F" target="_blank" rel="noopener noreferrer" class="block">
+        <figure class="relative">
+          <Image
+            class="w-full rounded-3xl shadow-2xl"
+            src="https://cdn.dribbble.com/users/1787323/screenshots/7072320/media/07a36a7626d7d1afc82fa4cfd6f55265.png"
+            alt="Paper bags with print"
+            width={1310}
+            height={873}
+            format="webp, jpeg"
+            loading="eager"
+          />
+          <div class="mt-4 flex justify-between px-6">
+            <div>
+              <h3 class="text-sm text-negroni-500">
                 HDD/SSD/RAM upgrade, format/install/activate Windows etc.
-              </a>
-            </h3>
-            <p class="mt-1 text-lg font-medium leading-6 text-white">PC & Laptop Services</p>
+              </h3>
+              <p class="mt-1 text-lg font-medium leading-6 text-white">PC & Laptop Services</p>
+            </div>
+            <p class="text-base text-tomato-500">RM5 - RM800</p>
           </div>
-          <p class="text-base text-tomato-500">RM5 - RM800</p>
-        </div>
-      </figure>
-      <figure>
-        <Image
-          class="w-full rounded-3xl shadow-2xl"
-          src="https://cdn.dribbble.com/users/1787323/screenshots/6501311/music_3_dribbble-01.png"
-          alt="Basic Tee bag"
-          width={1310}
-          height={873}
-          format="webp, jpeg"
-          loading="eager"
-        />
-        <div class="mt-4 flex justify-between px-6">
-          <div>
-            <h3 class="text-sm text-negroni-500">
-              <a href="https://wa.me/1234567890?text=Hi%2C%20can%20I%20get%20more%20info%20on%20Phone%20Services%3F" target="_blank" rel="noopener noreferrer">
-                <span aria-hidden="true" class="absolute inset-0"></span>
+        </figure>
+      </a>
+
+      <!-- Phone Services -->
+      <a href="https://wa.me/1234567890?text=Hi%2C%20can%20I%20get%20more%20info%20on%20Phone%20Services%3F" target="_blank" rel="noopener noreferrer" class="block">
+        <figure class="relative">
+          <Image
+            class="w-full rounded-3xl shadow-2xl"
+            src="https://cdn.dribbble.com/users/1787323/screenshots/6501311/music_3_dribbble-01.png"
+            alt="Basic Tee bag"
+            width={1310}
+            height={873}
+            format="webp, jpeg"
+            loading="eager"
+          />
+          <div class="mt-4 flex justify-between px-6">
+            <div>
+              <h3 class="text-sm text-negroni-500">
                 battery/screen/camera/speaker replacement etc.
-              </a>
-            </h3>
-            <p class="mt-1 text-lg font-medium leading-6 text-white">
-              Phone Services
-            </p>
+              </h3>
+              <p class="mt-1 text-lg font-medium leading-6 text-white">Phone Services</p>
+            </div>
+            <p class="text-base text-tomato-500">RM5 - RM800</p>
           </div>
-          <p class="text-base text-tomato-500">RM5 - RM800</p>
-        </div>
-      </figure>
-      <figure>
-        <Image
-          class="w-full rounded-3xl shadow-2xl"
-          src="https://cdn.dribbble.com/users/1787323/screenshots/12057610/media/c7d7a0d03302859b85e95f2b95108688.png"
-          alt="Coffee bag Developer"
-          width={1310}
-          height={873}
-          format="webp, jpeg"
-          loading="lazy"
-        />
-        <div class="mt-4 flex justify-between px-6">
-          <div>
-            <h3 class="text-sm text-negroni-500">
-              <a href="https://wa.me/1234567890?text=Hi%2C%20can%20I%20get%20more%20info%20on%20Game%20Console%20Services%3F" target="_blank" rel="noopener noreferrer">
-                <span aria-hidden="true" class="absolute inset-0"></span>
+        </figure>
+      </a>
+
+      <!-- Game Console Services -->
+      <a href="https://wa.me/1234567890?text=Hi%2C%20can%20I%20get%20more%20info%20on%20Game%20Console%20Services%3F" target="_blank" rel="noopener noreferrer" class="block">
+        <figure class="relative">
+          <Image
+            class="w-full rounded-3xl shadow-2xl"
+            src="https://cdn.dribbble.com/users/1787323/screenshots/12057610/media/c7d7a0d03302859b85e95f2b95108688.png"
+            alt="Coffee bag Developer"
+            width={1310}
+            height={873}
+            format="webp, jpeg"
+            loading="lazy"
+          />
+          <div class="mt-4 flex justify-between px-6">
+            <div>
+              <h3 class="text-sm text-negroni-500">
                 PS5 SSD upgrade, Nintendo Switch jailbreak etc.
-              </a>
-            </h3>
-            <p class="mt-1 text-lg font-medium leading-6 text-white">
-              Game Console Services
-            </p>
+              </h3>
+              <p class="mt-1 text-lg font-medium leading-6 text-white">Game Console Services</p>
+            </div>
+            <p class="text-base text-tomato-500">RM5 - RM600</p>
           </div>
-          <p class="text-base text-tomato-500">RM5 - RM600</p>
-        </div>
-      </figure>
-      <figure>
-        <Image
-          class="w-full rounded-3xl shadow-2xl"
-          src="https://cdn.dribbble.com/users/1787323/screenshots/11310814/media/78d925f388bdfd914f5c84a30261e239.png"
-          alt="Coffee bag Designer"
-          width={1310}
-          height={873}
-          format="webp, jpeg"
-          loading="lazy"
-        />
-        <div class="mt-4 flex justify-between px-6">
-          <div>
-            <h3 class="text-sm text-negroni-500">
-              <a href="https://wa.me/1234567890?text=Hi%2C%20can%20I%20get%20more%20info%20on%20Other%20Services%3F" target="_blank" rel="noopener noreferrer">
-                <span aria-hidden="true" class="absolute inset-0"></span>
+        </figure>
+      </a>
+
+      <!-- Other Services -->
+      <a href="https://wa.me/1234567890?text=Hi%2C%20can%20I%20get%20more%20info%20on%20Other%20Services%3F" target="_blank" rel="noopener noreferrer" class="block">
+        <figure class="relative">
+          <Image
+            class="w-full rounded-3xl shadow-2xl"
+            src="https://cdn.dribbble.com/users/1787323/screenshots/11310814/media/78d925f388bdfd914f5c84a30261e239.png"
+            alt="Coffee bag Designer"
+            width={1310}
+            height={873}
+            format="webp, jpeg"
+            loading="lazy"
+          />
+          <div class="mt-4 flex justify-between px-6">
+            <div>
+              <h3 class="text-sm text-negroni-500">
                 anime/games/movies download etc.
-              </a>
-            </h3>
-            <p class="mt-1 text-lg font-medium leading-6 text-white">
-              Other Services
-            </p>
+              </h3>
+              <p class="mt-1 text-lg font-medium leading-6 text-white">Other Services</p>
+            </div>
+            <p class="text-base text-tomato-500">RM5 - RM250</p>
           </div>
-          <p class="text-base text-tomato-500">RM5 - RM250</p>
-        </div>
-      </figure>      
+        </figure>
+      </a>
     </div>
   </div>
 </main>
