@@ -5,10 +5,73 @@ import Footer from "../components/global/Footer.astro";
 
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+    <meta name="description" content="Amer Tech Solutions provides an affordable computer and phone repairs: OS installs, hardware upgrades, screen/battery replacements, virus removal, data recovery, and media downloads." />
+    <link rel="canonical" href="https://amertechsolutions.amerfathullah.com" />
+    <meta itemprop="name" content="Amer Tech Solutions">
+    <meta itemprop="description" content="Amer Tech Solutions provides an affordable computer and phone repairs: OS installs, hardware upgrades, screen/battery replacements, virus removal, data recovery, and media downloads.">
+    <meta itemprop="image" content="https://amertechsolutions.amerfathullah.com/me.png">
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Amer Tech Solutions" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Amer Tech Solutions provides an affordable computer and phone repairs: OS installs, hardware upgrades, screen/battery replacements, virus removal, data recovery, and media downloads." />
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://amertechsolutions.amerfathullah.com/me.png" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://amertechsolutions.amerfathullah.com/" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1a1a1a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Amer Tech Solutions">
+    <meta name="application-name" content="Amer Tech Solutions">
+    <meta name="msapplication-TileColor" content="#e6e6e6">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Amer Tech Solutions</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Amer Tech Solutions",
+      "description": "Amer Tech Solutions provides an affordable computer and phone repairs: OS installs, hardware upgrades, screen/battery replacements, virus removal, data recovery, and media downloads.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lot 5614, Kampung Baru Bukit Changung",
+        "addressLocality": "Kuala Terengganu",
+        "addressRegion": "Terengganu",
+        "postalCode": "21200",
+        "addressCountry": "MY"
+      },
+      "telephone": "+601154229874",
+      "email": "amerfathullah@gmail.com",
+      "url": "https://amertechsolutions.amerfathullah.com",
+      "openingHours": [
+        "Mo-Fr 09:00-18:00",
+        "Sa-Su 14:00-18:00"
+      ],
+      "paymentAccepted": "Cash, QR Pay, eWallet",
+      "priceRange": "MYR",
+      "logo": "https://amertechsolutions.amerfathullah.com/me.png",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61564289142292",
+        "https://www.instagram.com/amertechsolutions/",
+        "https://maps.app.goo.gl/a4HAM2Z5ArT8G8ua7"
+      ]
+    }
+    </script>
     <BaseHead />
   </head>
 
   <body class="bg-gray-900">
+    <amp-install-serviceworker
+      src="https://amertechsolutions.amerfathullah.com/service-worker.js"
+      data-iframe-src="https://cdn.ampproject.org/v0/amp-install-serviceworker.html"
+      layout="nodisplay">
+    </amp-install-serviceworker>
     <slot />
 <Footer/>
   </body>
