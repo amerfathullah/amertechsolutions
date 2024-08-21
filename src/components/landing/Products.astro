@@ -1,5 +1,9 @@
 ---
 import { Image } from 'astro:assets';
+import pc from '../../images/pc.avif';
+import phone from '../../images/phone.avif';
+import console from '../../images/console.avif';
+import other from '../../images/other.avif';
 ---
 
 <main>
@@ -10,18 +14,18 @@ import { Image } from 'astro:assets';
         <figure class="relative">
           <Image
             class="w-full rounded-3xl shadow-2xl"
-            src="https://cdn.dribbble.com/users/1787323/screenshots/7072320/media/07a36a7626d7d1afc82fa4cfd6f55265.png"
+            src={pc}
             alt="Paper bags with print"
             width={1310}
             height={873}
-            format="webp, jpeg"
+            format="webp"
             loading="eager"
           />
           <div class="mt-4 flex justify-between px-6">
             <div>
-              <h3 class="text-sm text-negroni-500">
+              <h1 class="text-sm text-negroni-500">
                 HDD/SSD/RAM upgrade, format/install/activate Windows etc.
-              </h3>
+              </h1>
               <p class="mt-1 text-lg font-medium leading-6 text-white">PC & Laptop Services</p>
             </div>
             <p class="text-base text-tomato-500">RM5 - RM800</p>
@@ -34,18 +38,18 @@ import { Image } from 'astro:assets';
         <figure class="relative">
           <Image
             class="w-full rounded-3xl shadow-2xl"
-            src="https://cdn.dribbble.com/users/1787323/screenshots/6501311/music_3_dribbble-01.png"
+            src={phone}
             alt="Basic Tee bag"
             width={1310}
             height={873}
-            format="webp, jpeg"
+            format="webp"
             loading="eager"
           />
           <div class="mt-4 flex justify-between px-6">
             <div>
-              <h3 class="text-sm text-negroni-500">
+              <h1 class="text-sm text-negroni-500">
                 battery/screen/camera/speaker replacement etc.
-              </h3>
+              </h1>
               <p class="mt-1 text-lg font-medium leading-6 text-white">Phone Services</p>
             </div>
             <p class="text-base text-tomato-500">RM5 - RM800</p>
@@ -58,18 +62,18 @@ import { Image } from 'astro:assets';
         <figure class="relative">
           <Image
             class="w-full rounded-3xl shadow-2xl"
-            src="https://cdn.dribbble.com/users/1787323/screenshots/12057610/media/c7d7a0d03302859b85e95f2b95108688.png"
+            src={console}
             alt="Coffee bag Developer"
             width={1310}
             height={873}
-            format="webp, jpeg"
+            format="webp"
             loading="lazy"
           />
           <div class="mt-4 flex justify-between px-6">
             <div>
-              <h3 class="text-sm text-negroni-500">
+              <h1 class="text-sm text-negroni-500">
                 PS5 SSD upgrade, Nintendo Switch jailbreak etc.
-              </h3>
+              </h1>
               <p class="mt-1 text-lg font-medium leading-6 text-white">Game Console Services</p>
             </div>
             <p class="text-base text-tomato-500">RM5 - RM600</p>
@@ -82,18 +86,18 @@ import { Image } from 'astro:assets';
         <figure class="relative">
           <Image
             class="w-full rounded-3xl shadow-2xl"
-            src="https://cdn.dribbble.com/users/1787323/screenshots/11310814/media/78d925f388bdfd914f5c84a30261e239.png"
+            src={other}
             alt="Coffee bag Designer"
             width={1310}
             height={873}
-            format="webp, jpeg"
+            format="webp"
             loading="lazy"
           />
           <div class="mt-4 flex justify-between px-6">
             <div>
-              <h3 class="text-sm text-negroni-500">
+              <h1 class="text-sm text-negroni-500">
                 anime/games/movies download etc.
-              </h3>
+              </h1>
               <p class="mt-1 text-lg font-medium leading-6 text-white">Other Services</p>
             </div>
             <p class="text-base text-tomato-500">RM5 - RM250</p>
