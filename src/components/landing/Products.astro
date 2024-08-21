@@ -1,9 +1,9 @@
 ---
 import { Image } from 'astro:assets';
-import pc from '../../images/pc.avif';
-import phone from '../../images/phone.avif';
-import console from '../../images/console.avif';
-import other from '../../images/other.avif';
+import pc from '../../images/pc-1310.avif';
+import phone from '../../images/phone-1310.avif';
+import console from '../../images/console-1310.avif';
+import other from '../../images/other-1310.avif';
 ---
 
 <main>
@@ -15,17 +15,17 @@ import other from '../../images/other.avif';
           <Image
             class="w-full rounded-3xl shadow-2xl"
             src={pc}
-            alt="Paper bags with print"
+            alt="PC & Laptop Services"
             width={1310}
             height={873}
             format="webp"
             loading="eager"
+            widths={[256, 580, 920, 1160, 1310]}
+            sizes={`(max-width: 580px) 256px, (max-width: 920px) 580px, (max-width: 1160px) 920px, (max-width: 1310px) 1160px, 1310px`}
           />
           <div class="mt-4 flex justify-between px-6">
             <div>
-              <h1 class="text-sm text-negroni-500">
-                HDD/SSD/RAM upgrade, format/install/activate Windows etc.
-              </h1>
+              <h3 class="text-sm text-negroni-500">HDD/SSD/RAM upgrade, format/install/activate Windows etc.</h3>
               <p class="mt-1 text-lg font-medium leading-6 text-white">PC & Laptop Services</p>
             </div>
             <p class="text-base text-tomato-500">RM5 - RM800</p>
@@ -39,11 +39,13 @@ import other from '../../images/other.avif';
           <Image
             class="w-full rounded-3xl shadow-2xl"
             src={phone}
-            alt="Basic Tee bag"
+            alt="Phone Services"
             width={1310}
             height={873}
             format="webp"
             loading="eager"
+            widths={[256, 580, 920, 1160, 1310]}
+            sizes={`(max-width: 580px) 256px, (max-width: 920px) 580px, (max-width: 1160px) 920px, (max-width: 1310px) 1160px, 1310px`}
           />
           <div class="mt-4 flex justify-between px-6">
             <div>
@@ -63,11 +65,13 @@ import other from '../../images/other.avif';
           <Image
             class="w-full rounded-3xl shadow-2xl"
             src={console}
-            alt="Coffee bag Developer"
+            alt="Game Console Services"
             width={1310}
             height={873}
             format="webp"
             loading="lazy"
+            widths={[256, 580, 920, 1160, 1310]}
+            sizes={`(max-width: 580px) 256px, (max-width: 920px) 580px, (max-width: 1160px) 920px, (max-width: 1310px) 1160px, 1310px`}
           />
           <div class="mt-4 flex justify-between px-6">
             <div>
@@ -87,11 +91,13 @@ import other from '../../images/other.avif';
           <Image
             class="w-full rounded-3xl shadow-2xl"
             src={other}
-            alt="Coffee bag Designer"
+            alt="Other Services"
             width={1310}
             height={873}
             format="webp"
             loading="lazy"
+            widths={[256, 580, 920, 1160, 1310]}
+            sizes={`(max-width: 580px) 256px, (max-width: 920px) 580px, (max-width: 1160px) 920px, (max-width: 1310px) 1160px, 1310px`}
           />
           <div class="mt-4 flex justify-between px-6">
             <div>
