@@ -28,6 +28,6 @@
 
 /* Add the Font Awesome WhatsApp icon styles */
 .fa-whatsapp {
-    font-size: 1.2rem; /* Adjust size as needed */
+    font-size: 1.5rem; /* Adjust size as needed */
     color: currentColor; /* This will inherit the color from the text */
 }
